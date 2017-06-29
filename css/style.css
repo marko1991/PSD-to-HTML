@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 87%;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+.topcontent {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 50%;
+	clear: both;
+}
+
+.topcontent2 {
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 50%;
+	clear: both;
+}
+
+#img1 {
+	width: 100%;
+	height: auto;
+	margin: 2% 0;
+}
+
+#img2 {
+	width: 60%;
+	height: auto;
+	margin: 1% 0;
+}
+
+.img2 {
+	text-align: center;
+}
+
+.mainHeader nav {
+	background-color: #e38a21;
+	height: 40px;
+	margin-bottom: 40px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+	margin-right: 18%;
+}
+
+.mainHeader nav ul li {
+	float: right;
+	display: inline;
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, mainHeader nav .active a:link, mainHeader nav .active a:visited {
+	background-color: #b97626;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topLogo {
+	margin-left: 20%;
+}
+
+.mainContent {
+	line-height: 22px;
+	overflow: hidden;
+	clear: both;
+}
+
+content {
+	padding: 15px;
+}
+
+content h2 {
+	margin-bottom: 40px;
+	font-size: 2em;
+}
+
+footer nav {
+	background-color: #f2f2f2;
+	height: 40px;
+	margin-top: 150px;
+	text-align: center;
+	padding: 40px;
+}
+
+footer nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+footer nav ul li {
+	text-align: : center;
+	display: inline;
+	font-size: 11px;
+}
+
+footer nav a:link, .footer nav a:visited {
+	display: inline-block;
+	padding: 10px 10px;
+}
+
+footer nav a:hover, footer nav a:active, footer nav .active a:link, footer nav .active a:visited {
+	background-color: #b97626;
+	text-shadow: none;
+}
+
+footer nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+	.topcontent {
+		margin-top: 200px;
+		width: 90%;
+		font-size: 95%;
+}
+
+	.topcontent2 {
+		margin-top: 15px;
+		width: 90%;
+		font-size: 95%;
+}
+
+	#img1 {
+		width: 100%;
+}
+
+	#img2 {
+		width: 60%;
+		height: auto;
+		margin: 1% 0;
+}
+
+	.mainHeader nav {
+		height: 180px;
+		margin-bottom: 40px;
+		position: fixed;
+		width: 100%;
+}
+
+	.mainHeader nav ul {
+		padding-left: 0;
+		float: right;
+		margin-left: 60px;
+}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+		margin-top: -12px;
+}	
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+	
+		padding: 11px 11px;
+		height: 20px;
+}
+
+	.topLogo {
+		margin-left: 10%;
+		margin-top: 2%;
+}
+
+	.mainContent {
+		line-height: 25px;
+		overflow: hidden;
+		clear: both;
+}
+
+	content {
+		padding: 20px;
+}
+
+	content h2 {
+		margin-bottom: 20px;
+		font-size: 1.8em;
+}
+
+	footer nav {
+		background-color: #f2f2f2;
+		height: 40px;
+		margin-top: 50px;
+		text-align: center;
+		padding: 40px;
+}
